@@ -1,0 +1,33 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.bg-danger {
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.bg-secondary{
+    height: 60px;
+}
+
+input{
+    width: 800px;
+    border: 0;
+}
+
+input[type="number"]{
+    max-width: 100px;
+    border: none;
+}
+
+.col-6 input{
+    width: 400px;
+    border: none;
+}
+
+hr{
+    margin-top: 0;
+}

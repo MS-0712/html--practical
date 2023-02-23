@@ -1,0 +1,102 @@
+body {
+    background-color: #f1f3f3;
+    font-family: 'helvetica';
+}
+
+#deals {
+    background-color: white;
+    /* padding: ; */
+}
+
+#deals1 {
+    background-color: white;
+    /* padding: ; */
+}
+
+#icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    display: inline-block;
+    width: auto;
+}
+
+@media screen and (min-width:576px) {
+
+    #prodcar,
+    #beautycar {
+        display: flex;
+    }
+
+    #prodcar .carousel-item,
+    #beautycar .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/5);
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* #banners .carousel-item{
+        height: 200px;
+    } */
+    .d-block {
+        height: 200px;
+        width: 100px;
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: grey;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgb(114, 114, 114);
+}
+
+#prodcar,
+#beautycar {
+    padding: 0 15px 0 15px;
+    margin: 0 0 15px 0;
+}
+
+.card {
+    /* width: auto; */
+    height: 350px;
+    align-items: center;
+    margin: 0 .5em;
+}
+
+.img-wrapper {
+    max-width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-wrapper:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 500ms;
+}
+
+.icon:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.5s;
+}
+
+.bi-clock-history {
+    color: grey;
+    height: 5px;
+    width: 5px;
+    margin-left: 10px;
+}
