@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+    </title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark px-lg-5" id="navbar">
+        <div class="container-fluid d-flex justify-content-between px-lg-5 px-sm-0">
+            <div class="col-lg-6 d-flex justify-content-between">
+                <div class="col-auto text-end" id="logo">
+                    <img id="flipkart-logo"
+                        src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                        alt="Flipkart">
+                    <a class="text-light mt-0 text-decoration-none align-middle" href="#" id="explore-text">
+                        Explore Plus
+                        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
+                            class="m-0 pb-1 plus-icon">
+                    </a>
+                </div>
+                <input class="rounded-0 form-control col-lg-6 col-md-auto col-sm-auto me-2" type="search"
+                    placeholder="Search for products, brands and more" aria-label="Search">
+                <button class="btn fw-bold text-primary btn-light px-lg-5 px-sm-2 px-md-3 rounded-0">Login</button>
+            </div>
+            <div class="col-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Seller</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Nottifications</a></li>
+                                <li><a class="dropdown-item" href="#">Customer Care</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-cart-fill"
+                                    id="cart"></i>Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="container-fluid px-0 mt-0">
+        <div class="row mt-0 mx-0 px-5" id="icons">
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/flap/50/50/image/29327f40e9c4d26b.png?q=100">
+                <p>Grocery</p>
+            </div>
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/flap/50/50/image/22fddf3c7da4c4f4.png?q=100">
+                <p>Mobiles</p>
+            </div>
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/flap/50/50/image/c12afc017e6f24cb.png?q=100">
+                <p>Fashion</p>
+            </div>
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/flap/50/50/image/69c6589653afdb9a.png?q=100">
+                <p>Electronics</p>
+            </div>
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/fk-p-flap/50/50/image/05d708653beff580.png?q=100">
+                <p>Two Wheellers</p>
+            </div>
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/flap/50/50/image/f15c02bfeb02d15d.png?q=100">
+                <p>Top Offers</p>
+            </div>
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/flap/50/50/image/dff3f7adcf3a90c6.png?q=100">
+                <p>Beauty, Toys & More</p>
+            </div>
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/flap/50/50/image/ab7e2b022a4587dd.jpg?q=100">
+                <p>Home</p>
+            </div>
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/flap/50/50/image/71050627a56b4693.png?q=100">
+                <p>Travel</p>
+            </div>
+            <div class="icon col-sm-1 col-lg-1 col-md-2 text-center fw-bold pt-lg-3">
+                <img class="icon" src="https://rukminim1.flixcart.com/flap/50/50/image/0ff199d1bd27eb98.png?q=100">
+                <p>Appliences</p>
+            </div>
+        </div>
+
+        <div class="row mx-lg-5 p-0">
+            <div id="carouselExampleControls" class="mx-0 px-0 carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/58f880a782d61f98.jpg?q=50"
+                            class="d-block w-100" alt="ad-image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/628777116a4d9f61.png?q=50"
+                            class="d-block w-100" alt="ad-image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/c620ccc70e59252d.jpg?q=50"
+                            class="d-block w-100" alt="ad-image">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/a96670a0535ba0b8.jpg?q=50"
+                            class="d-block w-100" alt="ad-image">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                    </span>
+                    <span class="visually-hidden">
+                        Previous
+                    </span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+                    </span>
+                    <span class="visually-hidden">
+                        Next
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row mx-lg-5 mt-4 car">
+            <h4 class="mt-3 car-head">Deals of the Day<i class="bi bi-clock-history"></i><span class="h5 text-muted"
+                    id="timer"></span></h4>
+            <div id="products" class="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner" id="prodcar">
+                    <div class="carousel-item active">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Top Mirrorless Cameras</h6>
+                                <p class="card-text text-success">Shop Now!</p>
+                                <p class="card-text"><small class="text-muted">CANON</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Printers</h6>
+                                <p class="card-text text-success">From ₹3999</p>
+                                <p class="card-text"><small class="text-muted">HP</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kwl0akw0/printer/x/q/3/-original-imag989ygsdy6v6x.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Injet Printers</h6>
+                                <p class="card-text text-success">From ₹4999</p>
+                                <p class="card-text"><small class="text-muted">LENOVO</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kk76wsw0/monitor/u/p/k/qg271-um-hq1ss-001-acer-original-imafzhrxqegfbhad.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Monitors</h6>
+                                <p class="card-text text-success">From ₹9999</p>
+                                <p class="card-text"><small class="text-muted">SAMSUNG</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/l5ld8y80/monitor/l/k/s/-original-imagg897ufhyvwqq.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Monitors</h6>
+                                <p class="card-text text-success">From ₹7999</p>
+                                <p class="card-text"><small class="text-muted">LG</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kx50gi80/projector/r/9/p/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Peojectors</h6>
+                                <p class="card-text text-success">From ₹9999</p>
+                                <p class="card-text"><small class="text-muted">Zebronics</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Top Mirrorless Cameras</h6>
+                                <p class="card-text text-success">Shop Now!</p>
+                                <p class="card-text"><small class="text-muted">CANON</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Printers</h6>
+                                <p class="card-text text-success">From ₹3999</p>
+                                <p class="card-text"><small class="text-muted">HP</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kwl0akw0/printer/x/q/3/-original-imag989ygsdy6v6x.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Injet Printers</h6>
+                                <p class="card-text text-success">From ₹4999</p>
+                                <p class="card-text"><small class="text-muted">LENOVO</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kk76wsw0/monitor/u/p/k/qg271-um-hq1ss-001-acer-original-imafzhrxqegfbhad.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Monitors</h6>
+                                <p class="card-text text-success">From ₹9999</p>
+                                <p class="card-text"><small class="text-muted">SAMSUNG</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/l5ld8y80/monitor/l/k/s/-original-imagg897ufhyvwqq.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Monitors</h6>
+                                <p class="card-text text-success">From ₹7999</p>
+                                <p class="card-text"><small class="text-muted">LG</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kx50gi80/projector/r/9/p/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Peojectors</h6>
+                                <p class="card-text text-success">From ₹9999</p>
+                                <p class="card-text"><small class="text-muted">Zebronics</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#products" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#products" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row mx-lg-5 mt-4 car">
+            <h4 class="mt-3 car-head">Beauty, Food, Toys and more</h4>
+            <div id="beauty" class="mt-0 carousel" data-bs-ride="carousel">
+                <div class="carousel-inner" id="beautycar">
+                    <div class="carousel-item active">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kdj4xow0/treadmill/b/g/c/ft098-steel-motorized-ft98-steel-motorized-motorized-fitkit-original-imafuerskytashcz.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Treadmill</h6>
+                                <p class="card-text text-success">From ₹4999</p>
+                                <p class="card-text"><small class="text-muted">Shop Now</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/jms25jk0/dumbbell/e/p/r/pvc-combo16-na-8-krx-original-imaepy3rcgm3nsva.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Gym Essesntials</h6>
+                                <p class="card-text text-success">From ₹2999</p>
+                                <p class="card-text"><small class="text-muted">Shop Now</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Table Accessories</h6>
+                                <p class="card-text text-success">From ₹499</p>
+                                <p class="card-text"><small class="text-muted">Stands & more</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/k0plpjk0/remote-control-toy/9/g/k/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Remote Control Toys</h6>
+                                <p class="card-text text-success">Upto 50% off</p>
+                                <p class="card-text"><small class="text-muted">Buy Now!</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Top Selling Staionary</h6>
+                                <p class="card-text text-success">From ₹49</p>
+                                <p class="card-text"><small class="text-muted">Pens, Notebooks & more</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/l3uhvgw0/cycle/n/z/c/torro-26t-26-16-montra-72-21-gear-original-imagevzncygdd8ah.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Bicycles</h6>
+                                <p class="card-text text-success">From ₹4999</p>
+                                <p class="card-text"><small class="text-muted">HERO</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/l4d2ljk0/bat/3/4/4/1000-hitman-full-size-double-blade-poplar-cricket-bat-advance-original-imagf9zzgxxfamce.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Cricket</h6>
+                                <p class="card-text text-success">Upto 80% off</p>
+                                <p class="card-text"><small class="text-muted">CEAT, MRF & more</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/jms25jk0/dumbbell/e/p/r/pvc-combo16-na-8-krx-original-imaepy3rcgm3nsva.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Gym Essesntials</h6>
+                                <p class="card-text text-success">From ₹3999</p>
+                                <p class="card-text"><small class="text-muted">Buy Now!</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/kjuby4w0/deodorant/v/c/d/400-one8-intense-fresh-deo-pack-of-2-200ml-x-2-2-perfume-body-original-imafzbn4nv2zhccp.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Deoderants & Perfumes</h6>
+                                <p class="card-text text-success">Upto 60% off</p>
+                                <p class="card-text"><small class="text-muted">Denver, Fogg & more</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/k3j1z0w0/kit/d/v/e/combo-of-ab-wheel-rollerand-tummy-trimmer-exercisee1s-charuvi-original-imafdwh9nyzyujvk.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Gym Essesntials</h6>
+                                <p class="card-text text-success">From ₹3999</p>
+                                <p class="card-text"><small class="text-muted">Buy Now!</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-4">
+                            <div class="img-wrapper">
+                                <img src="https://rukminim1.flixcart.com/image/200/200/knhsgi80/racquet/a/0/u/g4-3-25-inches-g-force-3700-superlite-strung-1-g-force-superlite-original-imag25n4h7gjgrc2.jpeg?q=70"
+                                    alt="*product image">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Ultra Premium Racquets</h6>
+                                <p class="card-text text-success">Upto 40% off</p>
+                                <p class="card-text"><small class="text-muted">Buy Now!</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#beauty" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#beauty" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

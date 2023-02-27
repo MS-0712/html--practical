@@ -16,6 +16,46 @@ body {
 #icons {
     display: flex;
     justify-content: space-around;
+    background-color: #fff;
+}
+
+#navbarSupportedContent{
+    margin-left: 20px;
+}
+
+.plus-icon {
+    height: 16px;
+}
+
+#explore-text {
+    font-size: smaller;
+    font-style: italic;
+}
+
+#flipkart-logo {
+    height: 20px;
+}
+
+.car-head {
+    margin: 0 0 15px 20px;
+}
+
+.car {
+    background-color: white;
+}
+
+#cart {
+    margin-right: 8px;
+}
+
+#navbar {
+    background-color: #2874f0;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
 }
 
 .icon {
